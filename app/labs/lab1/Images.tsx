@@ -32,7 +32,7 @@ export default function Images() {
         id="wd-your-image"
         width="200px"
         alt="Lake Lucerne, Switzerland"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Luzern_Kapellbruecke.jpg/640px-Luzern_Kapellbruecke.jpg"
+        src="https://media.istockphoto.com/id/2179727461/photo/weggis-village-overlooking-lake-lucerne-and-swiss-alps.jpg?s=612x612&w=0&k=20&c=vpsY1xgGZbim0JG-s0NNDIvTukOxbP6BboUyn8hh5Ic="
       />
     </div>
   );
