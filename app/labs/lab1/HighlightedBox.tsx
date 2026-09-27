@@ -79,8 +79,8 @@ export default function HighlightedBoxLab() {
       >
         <h4>Chris</h4>
         <ul>
-          <li>Build a full stack app with Next.js</li>
-          <li>Learn REST APIs and MongoDB</li>
+          <li>Build a full stack application with Next.js</li>
+          <li>Learn & master REST APIs and MongoDB</li>
           <li>Deploy projects to the web</li>
         </ul>
       </HighlightedBox>

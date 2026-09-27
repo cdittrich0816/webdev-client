@@ -27,8 +27,7 @@ export default function TOC() {
           Chapter 1
         </Link>
       </li>
-      {/* On your own: personal note */}
-      <li id="wd-toc-note">Chris: one tag at a time</li>
+      <li id="wd-toc-note">Chris: Good things come in 3s</li>
     </ul>
   );
 }
