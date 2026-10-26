@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "123",
+    "username": "iron_man",
+    "firstName": "Tony",
+    "lastName": "Stark",
+    "email": "iron_man@kambaz.com",
+    "loginId": "001234123S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2020-10-01",
+    "totalActivity": "10:21:32"
+  },
+  {
+    "_id": "234",
+    "username": "dark_knight",
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "email": "dark_knight@kambaz.com",
+    "loginId": "001234234S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2020-11-02",
+    "totalActivity": "15:32:43"
+  },
+  {
+    "_id": "345",
+    "username": "black_widow",
+    "firstName": "Natasha",
+    "lastName": "Romanoff",
+    "email": "black_widow@kambaz.com",
+    "loginId": "001234345S",
+    "section": "S101",
+    "role": "TA",
+    "lastActivity": "2020-10-02",
+    "totalActivity": "13:23:34"
+  },
+  {
+    "_id": "456",
+    "username": "thor_odinson",
+    "firstName": "Thor",
+    "lastName": "Odinson",
+    "email": "thor_odinson@kambaz.com",
+    "loginId": "001234456S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2020-11-05",
+    "totalActivity": "11:22:33"
+  },
+  {
+    "_id": "567",
+    "username": "captain_america",
+    "firstName": "Steve",
+    "lastName": "Rogers",
+    "email": "captain_america@kambaz.com",
+    "loginId": "001234567S",
+    "section": "S101",
+    "role": "STUDENT",
+    "lastActivity": "2020-10-03",
+    "totalActivity": "12:21:12"
+  },
+  {
+    "_id": "678",
+    "username": "nick_fury",
+    "firstName": "Nick",
+    "lastName": "Fury",
+    "email": "nick_fury@kambaz.com",
+    "loginId": "001234678S",
+    "section": "S101",
+    "role": "FACULTY",
+    "lastActivity": "2020-11-07",
+    "totalActivity": "09:12:45"
+  },
+  {
+    "_id": "789",
+    "username": "bruce_banner",
+    "firstName": "Bruce",
+    "lastName": "Banner",
+    "email": "bruce_banner@kambaz.com",
+    "loginId": "001234789S",
+    "section": "S102",
+    "role": "FACULTY",
+    "lastActivity": "2020-11-08",
+    "totalActivity": "16:45:20"
+  },
+  {
+    "_id": "890",
+    "username": "pepper_potts",
+    "firstName": "Pepper",
+    "lastName": "Potts",
+    "email": "pepper_potts@kambaz.com",
+    "loginId": "001234890S",
+    "section": "S102",
+    "role": "TA",
+    "lastActivity": "2020-11-09",
+    "totalActivity": "08:30:10"
+  }
+]

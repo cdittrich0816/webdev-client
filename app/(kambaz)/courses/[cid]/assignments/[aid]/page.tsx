@@ -1,4 +1,5 @@
 import Link from "next/link";
+import * as db from "../../../../database";
 
 const input = "w-full rounded border border-neutral-300 px-3 py-2";
 const label = "mb-1 block font-medium";
@@ -8,25 +9,26 @@ export default async function AssignmentEditor({
 }: {
   params: Promise<{ cid: string; aid: string }>;
 }) {
-  const { cid } = await params;
+  const { cid, aid } = await params;
+  const assignment = db.assignments.find((a) => a._id === aid);
   return (
     <div id="wd-assignments-editor" className="max-w-2xl">
       <label htmlFor="wd-name" className={label}>
         Assignment Name
       </label>
-      <input id="wd-name" defaultValue="A1 - ENV + HTML" className={`${input} mb-4`} />
+      <input id="wd-name" defaultValue={assignment?.title ?? ""} className={`${input} mb-4`} />
       <textarea
         id="wd-description"
         rows={5}
         className={`${input} mb-4`}
-        defaultValue="The assignment is available online. Submit a link to the landing page of your Web application running on Vercel."
+        defaultValue={assignment?.description ?? ""}
       />
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-[180px_1fr] sm:items-start">
         <label htmlFor="wd-points" className="sm:pt-2 sm:text-right">
           Points
         </label>
-        <input id="wd-points" defaultValue={100} className={input} />
+        <input id="wd-points" defaultValue={assignment?.points ?? 100} className={input} />
 
         <label htmlFor="wd-group" className="sm:pt-2 sm:text-right">
           Assignment Group
@@ -78,13 +80,13 @@ export default async function AssignmentEditor({
           <label htmlFor="wd-due-date" className={label}>
             Due
           </label>
-          <input type="date" id="wd-due-date" defaultValue="2026-05-13" className={`${input} mb-3`} />
+          <input type="date" id="wd-due-date" defaultValue={assignment?.due} className={`${input} mb-3`} />
           <div className="grid grid-cols-2 gap-3">
             <div>
               <label htmlFor="wd-available-from" className={label}>
                 Available from
               </label>
-              <input type="date" id="wd-available-from" defaultValue="2026-05-06" className={input} />
+              <input type="date" id="wd-available-from" defaultValue={assignment?.available} className={input} />
             </div>
             <div>
               <label htmlFor="wd-available-until" className={label}>

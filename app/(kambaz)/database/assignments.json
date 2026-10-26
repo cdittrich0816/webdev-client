@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "A101",
+    "title": "A1 - Combustion and Nozzle Analysis",
+    "course": "RS101",
+    "description": "Analyze rocket combustion chamber thermodynamics and nozzle performance.",
+    "points": 100,
+    "available": "2024-05-06",
+    "due": "2024-05-13"
+  },
+  {
+    "_id": "A102",
+    "title": "A2 - Rocket Engine Comparison",
+    "course": "RS101",
+    "description": "Compare solid, liquid, and hybrid rocket engines.",
+    "points": 100,
+    "available": "2024-05-13",
+    "due": "2024-05-20"
+  },
+  {
+    "_id": "A103",
+    "title": "A3 - Nozzle Design Project",
+    "course": "RS101",
+    "description": "Design a converging-diverging nozzle with performance calculations.",
+    "points": 100,
+    "available": "2024-05-20",
+    "due": "2024-05-27"
+  },
+  {
+    "_id": "A201",
+    "title": "A1 - Airfoil Lift and Drag",
+    "course": "RS102",
+    "description": "Calculate lift and drag for an airfoil across angles of attack.",
+    "points": 100,
+    "available": "2024-05-06",
+    "due": "2024-05-13"
+  },
+  {
+    "_id": "A202",
+    "title": "A2 - Subsonic vs Supersonic Flow",
+    "course": "RS102",
+    "description": "Compare subsonic and supersonic flow over a wing.",
+    "points": 100,
+    "available": "2024-05-13",
+    "due": "2024-05-20"
+  },
+  {
+    "_id": "A203",
+    "title": "A3 - Thermal Protection Proposal",
+    "course": "RS102",
+    "description": "Propose a thermal protection approach for re-entry heating.",
+    "points": 100,
+    "available": "2024-05-20",
+    "due": "2024-05-27"
+  },
+  {
+    "_id": "A301",
+    "title": "A1 - Structural Materials",
+    "course": "RS103",
+    "description": "Select structural materials for a small spacecraft bus.",
+    "points": 100,
+    "available": "2024-05-06",
+    "due": "2024-05-13"
+  },
+  {
+    "_id": "A302",
+    "title": "A2 - Hohmann Transfer Plan",
+    "course": "RS103",
+    "description": "Plan a Hohmann transfer between circular orbits.",
+    "points": 100,
+    "available": "2024-05-13",
+    "due": "2024-05-20"
+  },
+  {
+    "_id": "A303",
+    "title": "A3 - CubeSat Subsystems",
+    "course": "RS103",
+    "description": "Integrate power, communication, and thermal subsystems for a CubeSat.",
+    "points": 100,
+    "available": "2024-05-20",
+    "due": "2024-05-27"
+  }
+]
