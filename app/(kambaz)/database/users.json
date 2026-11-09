@@ -2,6 +2,7 @@
   {
     "_id": "123",
     "username": "iron_man",
+    "password": "stark123",
     "firstName": "Tony",
     "lastName": "Stark",
     "email": "iron_man@kambaz.com",
@@ -14,6 +15,7 @@
   {
     "_id": "234",
     "username": "dark_knight",
+    "password": "wayne123",
     "firstName": "Bruce",
     "lastName": "Wayne",
     "email": "dark_knight@kambaz.com",
@@ -26,6 +28,7 @@
   {
     "_id": "345",
     "username": "black_widow",
+    "password": "romanoff123",
     "firstName": "Natasha",
     "lastName": "Romanoff",
     "email": "black_widow@kambaz.com",
@@ -38,6 +41,7 @@
   {
     "_id": "456",
     "username": "thor_odinson",
+    "password": "odinson123",
     "firstName": "Thor",
     "lastName": "Odinson",
     "email": "thor_odinson@kambaz.com",
@@ -50,6 +54,7 @@
   {
     "_id": "567",
     "username": "captain_america",
+    "password": "rogers123",
     "firstName": "Steve",
     "lastName": "Rogers",
     "email": "captain_america@kambaz.com",
@@ -62,6 +67,7 @@
   {
     "_id": "678",
     "username": "nick_fury",
+    "password": "fury123",
     "firstName": "Nick",
     "lastName": "Fury",
     "email": "nick_fury@kambaz.com",
@@ -74,6 +80,7 @@
   {
     "_id": "789",
     "username": "bruce_banner",
+    "password": "banner123",
     "firstName": "Bruce",
     "lastName": "Banner",
     "email": "bruce_banner@kambaz.com",
@@ -86,6 +93,7 @@
   {
     "_id": "890",
     "username": "pepper_potts",
+    "password": "potts123",
     "firstName": "Pepper",
     "lastName": "Potts",
     "email": "pepper_potts@kambaz.com",
